@@ -1,11 +1,11 @@
 ---
 name: detector-falacias
-description: Detecta falacias lógicas en un argumento dado, las ubica con precisión, explica por qué fallan, muestra cómo refutarlas y distingue casos falaces de usos legítimos similares. Se activa cuando el usuario pega un argumento, un párrafo argumentativo, o pide explícitamente "detecta falacias", "analiza este argumento" o "revisa esta lógica".
+description: Detecta falacias lógicas en un argumento dado, las ubica con precisión, explica por qué fallan, muestra cómo refutarlas y distingue casos falaces de usos legítimos similares. Se activa SOLO cuando el usuario lo pide explícitamente, con frases como "detecta falacias", "detectar falacia", "analiza este argumento" o "revisa esta lógica". No se activa automáticamente solo porque el usuario pegue un argumento o esté argumentando en la conversación.
 ---
 
 # Detector de falacias
 
-Cuando el usuario proporcione un argumento (pegado, citado, o descrito) y pida análisis de falacias, o cuando el contexto sugiera claramente que quiere ese análisis, sigue este procedimiento para cada falacia que identifiques:
+Cuando el usuario pida explícitamente análisis de falacias (por ejemplo con "detecta falacias" o "detectar falacia") sobre un argumento que proporcione, pegado, citado o descrito, sigue este procedimiento para cada falacia que identifiques:
 
 ## Procedimiento
 
